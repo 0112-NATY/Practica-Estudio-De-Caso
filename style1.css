@@ -1,0 +1,19 @@
+body
+    {
+        display: flex;
+        background-color: turquoise;
+        flex-direction: column;
+
+        width: 600px;
+        margin: 0 auto;
+    }
+  h2
+  {color: black;}
+  #Titulo
+  {color: red;}
+  #subtitulo
+  {color: black; }
+  div
+  {
+    background: white;
+  }

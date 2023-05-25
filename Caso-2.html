@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Natalia</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="Container">
+      <div id="Titulo">
+        <h1>Satisfacción de los asistentes a un evento</h1>
+      </div>
+      <div id="subtitulo">
+        <h2>Encuesta</h2>
+      </div>
+        <div id="Formulario">
+        <dir>
+        <form>
+                <b><label type="text">Nombre:</label><input type="text" id="nombre"><br><br>
+            
+                <label for="Correo">Correo electronico:</label></b><input type="email" id="email"><br><br>
+            
+                <b><label for="Edad">Digite la edad:</b><input type="number" id="edad" max="100" min="1"></label><br><br>
+
+                <b><label for="tc">Evaluacion del evento:</label>
+                  <select name="select">
+                  <option value="value1">Excelente</option>
+                  <option value="value2" selected>Regular</option>
+                  <option value="value3">Bueno</option>
+                  <option value="value3">Malo</option>
+                  </select></b><br><br>
+
+                <b>Que le parecio la duracion del evento</b><br>
+                <input type="radio" name="rel"> No duro tanto<br>
+                <input type="radio" name="rel"> Normal<br>
+                <input type="radio" name="rel"> Tardo bastante<br>
+                <input type="radio" name="rel"> Malo <br><br>
+
+                <b>Le parecio interesante el evento</b><br>
+                <input type="radio" name="restricciones"> Muy interesante <br>
+                <input type="radio" name="restricciones"> Interesante <br>
+                <input type="radio" name="restricciones"> No fue interesante <br><br>
+            
+                <b>En el evento asistio con ropa:</b>  <br>
+                <input type="radio" name="range"> Formal <br>
+                <input type="radio" name="range"> Casual <br>
+                
+                <b>Asistiron muchos:</b><br>
+                <input type="checkbox" name="range">Si<br>
+                <input type="checkbox"  name="range">No<br><br>
+                
+                <b>Comentario: </b><br>
+                <textarea rows="5" cols="30" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+                              
+                </p><button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
+                </form>
+        </dir>
+        </div>
+    </div>
+</body>
+</html>
